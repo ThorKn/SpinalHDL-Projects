@@ -1,0 +1,2 @@
+read_verilog UartKaratsuba.v
+synth_ecp5 -json UartKaratsuba.json

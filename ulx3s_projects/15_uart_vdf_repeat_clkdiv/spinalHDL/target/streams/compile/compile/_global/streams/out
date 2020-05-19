@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/15_uart_vdf_repeat_slowarea/spinalHDL/src/main/scala/UartVdf.scala:39:25: value areaStd is not a member of UartVdf[0m
+[0m[[0m[31merror[0m] [0m[0m                uartvdf.areaStd.io.uart.rxd #= true[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

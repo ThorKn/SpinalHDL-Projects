@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/8_uart_recursive_test_2/spinalHDL/src/main/scala/Square.scala:50:23: value asUint is not a member of spinal.core.Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        return (res_1.asUint + res_2.asUInt).asBits.resize(width*2)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

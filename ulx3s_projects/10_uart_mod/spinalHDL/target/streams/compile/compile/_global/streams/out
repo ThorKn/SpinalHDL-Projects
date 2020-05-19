@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/10_uart_mod/spinalHDL/src/main/scala/MultMod.scala:32:40: value bits is not a member of spinal.core.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val mask = B(((16*k.asUInt)-1) bits, default -> true).resize(width)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

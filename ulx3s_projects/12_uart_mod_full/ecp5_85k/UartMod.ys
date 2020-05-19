@@ -1,0 +1,2 @@
+read_verilog UartMod.v
+synth_ecp5 -json UartMod.json

@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/clkdiv_2.11-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDivMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDivMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDivMain$$anonfun$main$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDivMain$$anonfun$main$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDivMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDivMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDivMain$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDivMain$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDiv$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDiv$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDivMain$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDivMain$$anonfun$main$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDiv.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDiv.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDiv$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDiv$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClkDiv$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/target/scala-2.11/classes/ClkDiv$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

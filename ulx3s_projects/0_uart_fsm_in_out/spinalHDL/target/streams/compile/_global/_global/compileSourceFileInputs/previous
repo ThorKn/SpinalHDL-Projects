@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.11.12":{"hashes":[["/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/0_uart_fsm_in_out/spinalHDL/src/main/scala/UartFsmInOut.scala","f891a0674d6b1415efd77413bcc9985795e0abd1"]],"lastModifiedTimes":[]}}]

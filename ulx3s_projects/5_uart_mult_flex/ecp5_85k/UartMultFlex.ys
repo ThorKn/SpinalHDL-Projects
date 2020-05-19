@@ -1,0 +1,2 @@
+read_verilog UartMultFlex.v
+synth_ecp5 -json UartMultFlex.json

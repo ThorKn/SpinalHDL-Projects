@@ -1,0 +1,2 @@
+read_verilog UartKaraReg.v
+synth_ecp5 -json UartKaraReg.json

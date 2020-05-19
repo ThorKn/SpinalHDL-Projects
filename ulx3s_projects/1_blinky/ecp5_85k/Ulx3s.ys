@@ -1,0 +1,2 @@
+read_verilog PLL.v Blinky.v Ulx3s.v
+synth_ecp5 -noccu2 -nomux -nodram -json Ulx3s.json

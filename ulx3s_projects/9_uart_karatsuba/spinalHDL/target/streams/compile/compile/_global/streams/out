@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/9_uart_karatsuba/spinalHDL/src/main/scala/Karatsuba.scala:131:38: value +^ is not a member of spinal.core.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m            result_m := (((rh.asUInt +^ rl.asUInt - rm.asUInt).asBits) << width/2).resized[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/9_uart_karatsuba/spinalHDL/src/main/scala/Karatsuba.scala:133:38: value +^ is not a member of spinal.core.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m            result_m := (((rh.asUInt +^ rl.asUInt +^ rm.asUInt).asBits) << width/2).resized[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/9_uart_karatsuba/spinalHDL/src/main/scala/Karatsuba.scala:142:39: value +^ is not a member of spinal.core.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        io.result := (result_h.asUInt +^ result_m.asUInt +^ result_l.asUInt).asBits.resize(width*2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

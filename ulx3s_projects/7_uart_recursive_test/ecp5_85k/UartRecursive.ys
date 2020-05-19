@@ -1,0 +1,2 @@
+read_verilog UartRecursive.v
+synth_ecp5 -json UartRecursive.json

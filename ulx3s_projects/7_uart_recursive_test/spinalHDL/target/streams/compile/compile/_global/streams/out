@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/7_uart_recursive/spinalHDL/src/main/scala/Square.scala:44:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(4)[0m
+[0m[[0m[31merror[0m] [0m[0m required: spinal.core.BitCount[0m
+[0m[[0m[31merror[0m] [0m[0m        when(width < UInt(4)){[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

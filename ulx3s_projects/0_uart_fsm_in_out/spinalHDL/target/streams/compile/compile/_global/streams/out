@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/0_uart_fsm_in_out/spinalHDL/src/main/scala/UartFsmInOut.scala:13:5: '=' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/0_uart_fsm_in_out/spinalHDL/src/main/scala/UartFsmInOut.scala:28:20: ';' expected but symbol literal found.[0m
+[0m[[0m[31merror[0m] [0m[0m    wifi_gpio0 := 1'b1[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

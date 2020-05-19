@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/5_uart_mult_flex/spinalHDL/src/main/scala/UartFsmInOut.scala:33:65: value bits is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m        val inCounter = Reg(UInt(log2(math.ceil(width/8).toInt) bits)) init (0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/5_uart_mult_flex/spinalHDL/src/main/scala/UartFsmInOut.scala:76:66: value bits is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m        val outCounter = Reg(UInt(log2(math.ceil(width/8).toInt) bits)) init (0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

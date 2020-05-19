@@ -1,0 +1,2 @@
+read_verilog UartSquare.v
+synth_ecp5 -json UartSquare.json

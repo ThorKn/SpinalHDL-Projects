@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/src/main/scala/clkDiv.scala:15:8: value reset_in is not a member of spinal.core.Bundle{val clk_out: spinal.core.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m    io.reset_in <> io.reset_out[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/src/main/scala/clkDiv.scala:15:23: value reset_out is not a member of spinal.core.Bundle{val clk_out: spinal.core.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m    io.reset_in <> io.reset_out[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/src/main/scala/clkDiv.scala:16:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Boolean(false)[0m
+[0m[[0m[31merror[0m] [0m[0m required: spinal.core.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    io.clk_out := false[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/extra_clockdiv/spinalHDL/src/main/scala/clkDiv.scala:21:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Boolean(true)[0m
+[0m[[0m[31merror[0m] [0m[0m required: spinal.core.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        io.clk_out := true[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

@@ -1,0 +1,2 @@
+read_verilog Ulx3s.v ClkDiv.v UartVdf.v
+synth_ecp5 -json Ulx3s.json

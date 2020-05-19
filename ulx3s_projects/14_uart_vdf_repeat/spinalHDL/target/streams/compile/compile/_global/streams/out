@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:1:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:2:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core.sim._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.lib._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:4:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.lib.fsm._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:5:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.sim._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:9:35: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass MultMod(width: Int) extends Component{[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:10:18: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:11:30: not found: value slave[0m
+[0m[[0m[31merror[0m] [0m[0m        val fromUart       = slave Flow(Bits(((3*width)+48) bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:11:41: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val fromUart       = slave Flow(Bits(((3*width)+48) bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:11:61: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val fromUart       = slave Flow(Bits(((3*width)+48) bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:12:30: not found: value master[0m
+[0m[[0m[31merror[0m] [0m[0m        val toUart         = master Flow(Bits(width bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:12:42: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val toUart         = master Flow(Bits(width bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:12:53: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val toUart         = master Flow(Bits(width bits))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:13:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_1_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:13:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_1_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:14:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:14:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:15:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2a_out    = out Bits(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:15:45: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2a_out    = out Bits(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:16:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2b_out    = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:16:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2b_out    = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:17:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2c_out    = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:17:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2c_out    = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:18:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_3_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:18:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_3_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:19:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_4_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:19:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_4_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:20:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_5_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:20:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_5_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:21:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_6_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:21:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_6_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:22:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_7_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:22:47: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_7_out     = out Bits(width*2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:23:30: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_corr_flag = out UInt(3 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:23:41: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_corr_flag = out UInt(3 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:24:32: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_corr_flag_2 = out UInt(3 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:24:43: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_corr_flag_2 = out UInt(3 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:27:19: not found: type StateMachine[0m
+[0m[[0m[31merror[0m] [0m[0m    val fsm = new StateMachine{[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:28:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val a             = Reg(Bits(width bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:28:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val a             = Reg(Bits(width bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:28:44: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val a             = Reg(Bits(width bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:29:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val mod_n         = Reg(Bits(width bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:29:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val mod_n         = Reg(Bits(width bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:29:44: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val mod_n         = Reg(Bits(width bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:30:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val mue           = Reg(Bits(width + 8 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:30:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val mue           = Reg(Bits(width + 8 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:30:48: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val mue           = Reg(Bits(width + 8 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:31:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val k             = Reg(Bits(8 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:31:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val k             = Reg(Bits(8 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:31:40: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val k             = Reg(Bits(8 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:32:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val t             = Reg(Bits(32 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:32:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val t             = Reg(Bits(32 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:32:41: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val t             = Reg(Bits(32 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:33:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val result_mult   = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:33:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val result_mult   = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:33:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val result_mult   = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:34:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val result_barret = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:34:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val result_barret = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:34:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val result_barret = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:208:36: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass KaraMult(width: Int) extends Component{[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:36:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2        = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:36:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2        = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:36:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_2        = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:37:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_3        = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:37:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_3        = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:37:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_3        = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:38:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_7        = Reg(SInt(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:38:33: not found: value SInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_7        = Reg(SInt(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:38:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_7        = Reg(SInt(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:39:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_8        = Reg(UInt(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:39:33: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_8        = Reg(UInt(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:39:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val temp_8        = Reg(UInt(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:40:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val mask          = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:40:33: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m        val mask          = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:40:46: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val mask          = Reg(Bits(width*2 bits)) init(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:41:29: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        val repeatCounter = Reg(UInt(32 bits)) init (0)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:41:33: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        val repeatCounter = Reg(UInt(32 bits)) init (0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:41:41: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val repeatCounter = Reg(UInt(32 bits)) init (0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:61:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateA : State = new State with EntryPoint{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:75:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateB : State = new StateDelay(cyclesCount=1){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:86:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateC : State = new StateDelay(cyclesCount=1){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:100:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateD : State = new State{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:116:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateE : State = new StateDelay(cyclesCount=2){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:141:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateF : State = new State{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:154:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateG : State = new State{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:182:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateH : State = new StateDelay(cyclesCount=1){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:196:22: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateI : State = new StateDelay(cyclesCount=2){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:209:18: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = new Bundle{[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:210:17: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m        val a = in Bits(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:210:31: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val a = in Bits(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:211:17: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m        val b = in Bits(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:211:31: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val b = in Bits(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:212:22: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m        val result = out Bits(2*width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:212:39: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val result = out Bits(2*width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:61:34: not found: type State[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateA : State = new State with EntryPoint{[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:61:45: not found: type EntryPoint[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateA : State = new State with EntryPoint{[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:62:13: not found: value whenIsActive[0m
+[0m[[0m[31merror[0m] [0m[0m            whenIsActive {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:63:17: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m                when(io.fromUart.valid) {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:70:21: not found: value goto[0m
+[0m[[0m[31merror[0m] [0m[0m                    goto(stateB)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moss/Documents/vdfs-in-hardware/implementations/ulx3s_projects/14_uart_vdf_repeat/spinalHDL/src/main/scala/MultMod.scala:75:34: not found: type StateDelay[0m
+[0m[[0m[31merror[0m] [0m[0m        val stateB : State = new StateDelay(cyclesCount=1){[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m221 errors found[0m
